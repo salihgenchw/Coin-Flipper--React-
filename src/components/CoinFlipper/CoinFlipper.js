@@ -22,9 +22,9 @@ class CoinFlipper extends Component {
   render() {
     return (
       <div className="CoinFlipper">
-        <h1>Yazı mı Tura mı?</h1>
+        <h1>Heads or Tails?</h1>
         <Coin side={this.state.side} flipping={this.state.flipping} />
-        <button onClick={this.handleClick}>At!</button>
+        <button onClick={this.handleClick}>Try!</button>
         <p>
           Toplam
           <strong> 5 </strong>
